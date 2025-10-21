@@ -14,5 +14,6 @@ responseExtraction_Behavior.m - script used to align calcium responses of indivi
 <br>REC276616_D1awake_Behavior.csv - DeepLabCut output from trained model; includes x/y coordinates as well as a likelihood score at each timepoint for each labeled point
 
 "pre_processing_scripts" contains the following:
-<br>PreProcessing*.m - Input is the master output tables created by "responseExtraction_Behavior.m" containing all neuron x odor x trial responses as well as behavioral scores. These scripts remove cells not tracked across sessions and apply the various timepoint shifting methods included in the script name.
+
+PreProcessing*.m - Input is the master output tables created by "responseExtraction_Behavior.m" containing all neuron x odor x trial responses as well as behavioral scores. These scripts remove cells not tracked across sessions and apply the various timepoint shifting methods included in the script name.
 <br>Generate_*.m - Inputs are the results from the relevant "PreProcessing.m" script. Compiles data from all animals and removes any missing data to compile the first 8 trials from each animal, when possible, into a day-sorted cell array. Labeling within each table depends on the final output (ordering by odor identity, by best response identity, behavior, etc.).
