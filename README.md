@@ -4,8 +4,8 @@ Processing code written for Chapman, Raymond, and Fletcher submission of "Experi
 "data_sample" folder contains the following:
 
 responseExtraction_Behavior.m - script used to align calcium responses of individual neurons and behavior to odor stimulus times
-Key_sample.csv - truncated list of sessions used; only includes the session from this repository
-REC276616_D1awake_DeconTrace.csv - Denoised output from the CaImAn pipeline (Neuron x Timesample)
+<br>Key_sample.csv - truncated list of sessions used; only includes the session from this repository
+<br>REC276616_D1awake_DeconTrace.csv - Denoised output from the CaImAn pipeline (Neuron x Timesample)
 REC276616_D1awake_RawTrace.csv - Un-denoised output from the CaImAn pipeline (Neuron x Timesample)
 REC276616_D1awake_index.csv - CellReg alignment results for the session
 REC276616_D1awake_notes.csv - Timestamps and identity of delivered odor stimuli
