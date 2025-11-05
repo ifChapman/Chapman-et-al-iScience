@@ -1,5 +1,5 @@
 # Chapman-et-al-CellReports
-Processing code written for Chapman, Raymond, and Fletcher submission of "Experience and behavior modulate piriform cortex odor representation in freely moving mice" to Cell Reports (2025). Current repository contains a small amount of sample data and scripts used to create clean response tables to generate the figures in the submission manuscript. All code included here was run using MATLAB 2023a.
+Processing code written for Chapman, Raymond, and Fletcher submission of "Experience and behavior modulate piriform cortex odor representation in freely moving mice" to iScience (2025). Current repository contains a small amount of sample data and scripts used to create clean response tables to generate the figures in the submission manuscript. All code included here was run using MATLAB 2023a.
 
 "data_sample" folder contains the following:
 
