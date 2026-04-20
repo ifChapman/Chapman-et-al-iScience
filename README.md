@@ -1,5 +1,5 @@
 # Chapman-et-al-iScience
-Processing code written for Chapman, Raymond, and Fletcher submission of "Experience and behavior modulate piriform cortex odor representation in freely moving mice" to iScience (2025). Current repository contains a small amount of sample data and scripts used to create clean response tables to generate the figures in the submission manuscript. All code included here was run using MATLAB 2023a.
+Processing code written for "Experience and behavior modulate piriform cortex odor representation in freely moving mice" in iScience. This repository contains a small amount of sample data and scripts used to create clean response tables ("ProcessedData") and to generate the figures in the manuscript. All code included here was run using MATLAB 2023a.
 
 "data_sample" folder contains the following:
 
@@ -17,3 +17,5 @@ responseExtraction_Behavior.m - script used to align calcium responses of indivi
 
 PreProcessing*.m - Input is the master output tables created by "responseExtraction_Behavior.m" containing all neuron x odor x trial responses as well as behavioral scores. These scripts remove cells not tracked across sessions and apply the various timepoint shifting methods included in the script name.
 <br>Generate_*.m - Inputs are the results from the relevant "PreProcessing.m" script. Compiles data from all animals and removes any missing data to compile the first 8 trials from each animal, when possible, into a day-sorted cell array. Labeling within each table depends on the final output (ordering by odor identity, by best response identity, behavior, etc.).
+
+Specific analyses are otherwise organized by the figure in which they appear in the manuscript.
